@@ -31,10 +31,10 @@ jobs:
       - name: Deploy to server
         uses: appleboy/scp-action@master
         with:
-          host: 103.52.152.201
+          host: 64.90.21.194
           username: root
-          port: 17417
-          key: ${{ secrets.ABS_KEY }}
+          port: 22
+          key: ${{ secrets.A8_WEB_KEY }}
           source: ./dist/*
-          target: /www/wwwroot/meecxxc.one/dist
+          target: /www/wwwroot/belk.shopa8.shop/dist
           strip_components: 1
