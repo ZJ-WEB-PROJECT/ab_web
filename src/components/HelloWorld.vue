@@ -2655,7 +2655,7 @@ import { ref } from 'vue'
                   class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled">
                   <picture>
                     <source media="(min-width: 500px)" srcset="../assets/wikimedia-button.svg" width="84" height="29">
-                    <img src="../assets/wikimedia.svg" width="25" height="25" alt="Wikimedia Foundation" lang="en"
+                    <img src="../assets/wikimedia-button.svg" width="25" height="25" alt="Wikimedia Foundation" lang="en"
                       loading="lazy">
                   </picture>
                 </a></li>
@@ -2663,7 +2663,7 @@ import { ref } from 'vue'
                   class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled">
                   <picture>
                     <source media="(min-width: 500px)" srcset="../assets/poweredby_mediawiki.svg" width="88"
-                      height="31"><img src="../assets/mediawiki_compact.svg" alt="Powered by MediaWiki" lang="en"
+                      height="31"><img src="../assets/poweredby_mediawiki.svg" alt="Powered by MediaWiki" lang="en"
                       width="25" height="25" loading="lazy">
                   </picture>
                 </a></li>
