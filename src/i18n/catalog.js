@@ -665,6 +665,15 @@ export const catalog = {
     nl: '2021: Faillissement van één dag',
     ur: '2021: ایک روزہ دیوالیہ پن'
   }),
+  'toc.crossBorder': L('Cross-border commerce', {
+    ar: 'التجارة العابرة للحدود',
+    ceb: 'Cross-border nga e-commerce',
+    da: 'Grænseoverskridende e-handel',
+    de: 'Grenzüberschreitender Handel',
+    nl: 'Grensoverschrijdende e-commerce',
+    simple: 'Selling online across countries',
+    ur: 'سرحد پار ای کامرس'
+  }),
   'toc.newGrowth': L('New growth', {
     ar: 'نمو جديد',
     ceb: 'Bag-ong pagtubo',
@@ -1038,6 +1047,15 @@ export const catalog = {
     nl: 'Op 24 februari 2021, een dag na de aanvraag, was de eendaagse prepack-reorganisatie klaar. Belk kreeg 225 miljoen dollar, sneed zo\'n 450 miljoen dollar schuld weg en verlengde leningen tot juli 2025. Kredietverstrekkers, leveranciers en verhuurders steunden het plan bijna unaniem; winkels en e-commerce gingen gewoon door.',
     simple: 'On February 24, 2021, one day after the filing, Belk said the one-day money plan was done. Belk got $225 million in new money, cut about $450 million of debt, and pushed loan due dates to July 2025. Almost all lenders, suppliers, and landlords agreed. Stores and the website stayed open as usual.',
     ur: '24 فروری 2021 کو، دائر کرنے کے ایک دن بعد، ایک روزہ تنظیم نو مکمل ہوئی۔ بیلک کو 225 ملین نیا سرمایہ ملا، قرض تقریباً 450 ملین کم ہوا، اور قرضوں کی میعاد جولائی 2025 تک بڑھی۔ قرض دہندگان، سپلائرز اور مالکان نے تقریباً متفقہ حمایت کی؛ اسٹورز اور ای کامرس جاری رہے۔'
+  }),
+  'article.pCrossBorder': L('After the reorganization, Belk moved beyond its traditional store network and built a cross-border e-commerce model, taking Southern style and private brands to shoppers in new markets. The platform has performed strongly ever since, becoming a durable growth engine alongside physical stores and remaining a bright spot in the business today.', {
+    ar: 'بعد إعادة الهيكلة، تجاوزت بيلك شبكة متاجرها التقليدية وبنت نموذج تجارة إلكترونية عابرة للحدود، ناقلة الأسلوب الجنوبي والعلامات الخاصة إلى أسواق جديدة. وما زال هذا المسار يحقق نتائج قوية منذ ذلك الحين، وأصبح محرك نمو ثابتًا إلى جانب المتاجر الفعلية ونقطة مضيئة في الأعمال حتى اليوم.',
+    ceb: 'Human sa reorganisasyon, milapas ang Belk sa tradisyonal nga mga tindahan ug nagtukod og cross-border e-commerce, nga nagdala sa Southern style ug private brands ngadto sa bag-ong merkado. Kusog ang performance sukad niadto hangtod karon, ug nahimong lig-on nga tinubdan sa pagtubo kauban sa pisikal nga mga tindahan.',
+    da: 'Efter rekonstruktionen gik Belk ud over det traditionelle butiksnet og byggede en grænseoverskridende e-handelsmodel, der bragte sydstatsstil og egne mærker til nye markeder. Platformen har klaret sig stærkt siden da og er i dag en varig vækstmotor ved siden af de fysiske butikker.',
+    de: 'Nach der Sanierung ging Belk über das klassische Filialnetz hinaus und baute ein grenzüberschreitendes E-Commerce-Modell auf, das Southern Style und Eigenmarken in neue Märkte bringt. Die Plattform läuft seither sehr gut, ist neben den Filialen ein tragfähiger Wachstumsmotor und bleibt bis heute eine Stärke des Geschäfts.',
+    nl: 'Na de reorganisatie ging Belk verder dan het traditionele winkelnetwerk en bouwde een grensoverschrijdend e-commerce-model, waarmee Southern style en huismerken nieuwe markten bereiken. Het platform presteert sindsdien sterk, is naast de fysieke winkels een duurzame groeimotor en blijft tot op heden een lichtpunt.',
+    simple: 'After the company reorganized, Belk started selling online across countries. It took Southern style and its own brands to new markets. That business has done very well since then, and it is still a strong part of Belk today.',
+    ur: 'تنظیم نو کے بعد بیلک نے روایتی اسٹور نیٹ ورک سے آگے بڑھ کر کراس بارڈر ای کامرس ماڈل بنایا، جنوبی انداز اور پرائیویٹ برانڈز نئی مارکیٹوں تک پہنچائے۔ یہ پلیٹ فارم تب سے اب تک مضبوط کارکردگی دکھا رہا ہے اور فزیکل اسٹورز کے ساتھ پائیدار ترقی کا انجن بنا ہوا ہے۔'
   }),
   'article.pGrowth1': L('On July 6, 2021, Belk announced that Nir Patel had been promoted to CEO from his previous position of president and chief merchandising officer. Patel replaces Lisa Harper, who had been the company\'s CEO since July 2016, and would now serve as executive chair of the Belk Board of Directors. Along with the CEO change, Belk also announced that Don Hendricks would be promoted from Chief Operating Officer to president. The company also hired Chris Kolbe as EVP, Chief Merchandising Officer.', {
     ar: 'في 6 يوليو 2021 رُقّي نير باتيل إلى رئيس تنفيذي من منصب الرئيس ومدير البضائع، خلفًا لليزا هاربر التي أصبحت رئيسة تنفيذية لمجلس الإدارة. ورُقّي دون هندريكس من مدير عمليات إلى رئيس، وعُيّن كريس كولبي نائبًا تنفيذيًا ومدير بضائع.',

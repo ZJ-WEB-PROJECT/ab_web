@@ -24,7 +24,8 @@ const timeline = computed(() => [
   { year: t('toc.2000s'), text: t('article.p2000s1') },
   { year: t('toc.2010s'), text: t('article.p2010s1') },
   { year: t('toc.acquisition'), text: t('article.pAcq2') },
-  { year: t('toc.bankruptcy'), text: t('article.pBank4') }
+  { year: t('toc.bankruptcy'), text: t('article.pBank4') },
+  { year: t('toc.crossBorder'), text: t('article.pCrossBorder') }
 ])
 
 const flags = computed(() => [
