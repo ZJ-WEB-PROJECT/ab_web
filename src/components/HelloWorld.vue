@@ -107,7 +107,7 @@ onUnmounted(() => {
               <li v-for="lang in languages" :key="lang.code">
                 <button type="button" :class="{ active: locale === lang.code }" @click="switchLanguage(lang.code)">
                   {{ lang.nativeName }}
-                </button>
+                </button>  
               </li>
             </ul>
           </div>
