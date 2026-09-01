@@ -1,5 +1,6 @@
 import { ref, computed, watch } from 'vue'
 import { catalog } from './catalog.js'
+import { zhHant } from './zh-hant.js'
 
 export const languages = [
   { code: 'ar', nativeName: 'العربية', dir: 'rtl' },
@@ -9,7 +10,8 @@ export const languages = [
   { code: 'en', nativeName: 'English', dir: 'ltr' },
   { code: 'nl', nativeName: 'Nederlands', dir: 'ltr' },
   { code: 'simple', nativeName: 'Simple English', dir: 'ltr' },
-  { code: 'ur', nativeName: 'اردو', dir: 'rtl' }
+  { code: 'ur', nativeName: 'اردو', dir: 'rtl' },
+  { code: 'zh-hant', nativeName: '繁體中文', dir: 'ltr' }
 ]
 
 const STORAGE_KEY = 'a8-locale'
@@ -33,9 +35,14 @@ export const currentLanguage = computed(
 
 export const isRtl = computed(() => currentLanguage.value?.dir === 'rtl')
 
-export const htmlLang = computed(() => (locale.value === 'simple' ? 'en' : locale.value))
+export const htmlLang = computed(() => {
+  if (locale.value === 'simple') return 'en'
+  if (locale.value === 'zh-hant') return 'zh-Hant'
+  return locale.value
+})
 
 function lookup(key, lang) {
+  if (lang === 'zh-hant' && zhHant[key]) return zhHant[key]
   const entry = catalog[key]
   if (!entry) return key
   return entry[lang] || entry.en || key
